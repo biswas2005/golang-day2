@@ -12,5 +12,6 @@ func main() {
 	// problems.Calculator()
 	// problems.Prime()
 	// problems.Allprime()
-	problems.Fibonacci()
+	// problems.Fibonacci()
+	problems.Random()
 }
