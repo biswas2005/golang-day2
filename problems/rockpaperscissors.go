@@ -20,11 +20,11 @@ func Rps() {
 	fmt.Println("<Enter 0 for rock><Enter 1 for paper><Enter 2 for scissor>")
 	fmt.Println("Enter your choice: ")
 	fmt.Scan(&userChoice)
-	fmt.Println("Computer chose: ", computerChoice)
 	if (userChoice < 0) || (userChoice > 2) {
 		fmt.Println("Invalid choices.")
 		return
 	}
+	fmt.Println("Computer chose: ", computerChoice)
 
 	if userChoice == computerChoice {
 		fmt.Println("Its a draw!")
